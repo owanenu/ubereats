@@ -1,0 +1,381 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: burlywood;
+}
+
+header {
+   padding: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.form {
+    padding:0;
+    margin: 20px;
+}
+header h1 {
+    font-weight: 400px;
+    font-size: 50px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+header h1 span {
+    font-weight: 600px;
+    margin-left: 10px;
+    margin-top: 0px;
+    color: white;
+}
+
+.bg{
+    background-image: url(./images/711d51ca1b458931.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+.hero-sec{
+    display: flex;
+    height: 100vh;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.hero-sec {
+    font-size: 25px;
+    color:black;
+    margin-left: 15px;
+    margin-top: 0px;
+
+}
+.hero-sec input{
+    border-radius: 20px;
+    height: 40px;
+    margin:10px;
+    margin-right: 20px;
+    
+}
+.auth {
+    display: flex;
+    gap: 15px;
+    margin-right: 10px;
+    
+}
+.input{
+    width: 350px;
+}
+.auth>button {
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background-color: transparent;
+    box-shadow: 2px 1px 2px 1px #ccc;
+    cursor: pointer;
+}
+
+button.bt2 {
+    background-color:black;
+    color: white;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.bt1:hover {
+    background-color: #ccc;
+}
+
+.bt2:hover {
+    background-color: #ccc;
+}
+
+button.bt1 {
+    background-color:white;
+    color: black;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+
+section img {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.gallery {
+    height: fit-content;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 20px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.Order1 {
+    margin: 20px;
+    justify-content: right;
+}
+
+.Order2 {
+    margin: 20px;
+    justify-content: center;
+}
+input{
+    width: 350px;
+}
+.Oderer3 {
+    margin: 20px;
+    justify-content: center;
+}
+
+::placeholder {
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 30px;
+    border-radius:20px;
+}
+
+.hero-sec h2{
+    font-size: 60px;
+    color:black;
+    margin-left: 15px;
+    margin-top: 150px;
+
+}
+.search {
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+
+.searchere {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+
+
+.cityV h3 {
+    font-size: 30px;
+    flex-direction: row;
+    margin-bottom: 20px;
+
+}
+
+.cityV {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    list-style: none;
+}
+.allCities{
+    display: flex;
+    justify-content: space-around;
+
+}
+.allCities ul li{
+    list-style: none;
+    line-height: 35px;
+}
+.CountriesV {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 40px;
+    margin-top: 40px;
+    /* justify-content: center; */
+
+}
+
+.CountriesContainer {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    justify-content: space-around;
+    
+}
+
+.CountriesU li {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    list-style: none;
+}
+.CountriesContainer li{
+    list-style: none;
+    line-height: 30px;
+}
+
+.map{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerimg {
+    margin-top: 30px;
+    width: 400px;
+    height: 100px;
+}
+
+ h3 {
+    font-size:25px;
+    margin: right 25px;
+    margin-left: 50px;
+    text-align: center;
+ }
+ .CountriesU {
+    list-style: none;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+} 
+
+
+.f-c {
+    width: 90%;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.links {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.services h3 p {
+    padding: 20px;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.get li {
+    padding: 5px;
+    gap: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.ret li {
+    padding: 5px;
+    gap: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+@media screen and (max-width:600px) {
+
+    .menu_icon {
+        display: block;
+    }
+
+    .header ul {
+        display: block;
+        flex-direction: column;
+        max-width: 300px;
+        min-width: 100px;
+        width: 100%;
+        position: absolute;
+        background-color: white;
+        right: 0;
+        top: 70px;
+        border-radius: 7px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .header li {
+        margin: 10px auto;
+        width: 90%;
+    }
+    .cities {
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    .header li a {
+        display: block;
+        width: 100%;
+    }
+}
+    @media screen and (max-width:600px) {
+    .img{
+display: row;
+width: auto;
+    }
+    
+}     
+    .gallery {
+        grid-template-columns: auto auto auto;
+    }
+
+
+@media screen and (max-width:600px) {
+    .Order1 {
+        margin: 20px;
+        justify-content: center;
+        flex-direction: row
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    .Order2 {
+        margin: 20px;
+        justify-content: center;
+        flex-direction: row;
+
+    }
+
+
+}
+
+@media screen and (max-width:600px) {
+    .Oderer3 {
+        margin: 20px;
+
+        justify-content: center;
+        flex-direction: row;
+    }
+
+}
